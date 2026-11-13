@@ -1,0 +1,177 @@
+
+services:
+
+  # ==========================================
+  # 1. BANCO DE DADOS MONGODB
+  # ==========================================
+  mongo-db:
+    image: mongo:4.4
+    container_name: mongo-vacinas
+    restart: unless-stopped
+    command: --bind_ip_all
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - fiware-network
+
+  # ==========================================
+  # 2. ORION CONTEXT BROKER
+  # ==========================================
+  orion:
+    image: fiware/orion:3.10.0
+    container_name: fiware-orion
+    restart: unless-stopped
+    depends_on:
+      - mongo-db
+    ports:
+      - "1026:1026"
+    command: -dbhost mongo-db -logLevel DEBUG
+    networks:
+      - fiware-network
+
+  # ==========================================
+  # 3. BROKER MQTT - MOSQUITTO
+  # ==========================================
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: mosquitto-vacinas
+    restart: unless-stopped
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - mosquitto-data:/mosquitto/data
+      - mosquitto-log:/mosquitto/log
+    networks:
+      - fiware-network
+
+  # ==========================================
+  # 4. FIWARE IOT AGENT JSON + MQTT
+  # ==========================================
+  iot-agent:
+    image: quay.io/fiware/iotagent-json:latest
+    container_name: fiware-iot-agent
+    restart: unless-stopped
+    depends_on:
+      - mongo-db
+      - orion
+      - mosquitto
+    ports:
+      - "4041:4041"
+      - "7896:7896"
+    environment:
+      IOTA_CB_HOST: orion
+      IOTA_CB_PORT: 1026
+      IOTA_NORTH_PORT: 4041
+
+      IOTA_REGISTRY_TYPE: mongodb
+      IOTA_LOG_LEVEL: DEBUG
+      IOTA_TIMESTAMP: "true"
+      IOTA_CB_NGSI_VERSION: v2
+      IOTA_AUTOCAST: "true"
+
+      IOTA_MONGO_HOST: mongo-db
+      IOTA_MONGO_PORT: 27017
+      IOTA_MONGO_DB: iotagentjson
+
+      IOTA_HTTP_PORT: 7896
+      IOTA_PROVIDER_URL: http://iot-agent:4041
+
+      IOTA_MQTT_HOST: mosquitto
+      IOTA_MQTT_PORT: 1883
+      IOTA_MQTT_QOS: 1
+
+    networks:
+      - fiware-network
+
+  # ==========================================
+  # 5. CRATEDB - HISTORICO DE TEMPERATURAS
+  # ==========================================
+  crate-db:
+    image: crate:5.7.6
+    container_name: crate-vacinas
+    restart: unless-stopped
+    ports:
+      - "4200:4200"
+      - "4300:4300"
+    command: >
+      crate
+      -Cdiscovery.type=single-node
+      -Ccluster.name=vacinas-cluster
+      -Cnetwork.host=0.0.0.0
+      -Ccluster.routing.allocation.disk.threshold_enabled=false
+      -Cnode.store.allow_mmap=false
+    volumes:
+      - crate-data:/data
+    networks:
+      - fiware-network
+
+  # ==========================================
+  # 6. QUANTUMLEAP
+  # ==========================================
+  quantumleap:
+    image: smartsdk/quantumleap:latest
+    container_name: quantumleap-vacinas
+    restart: unless-stopped
+    depends_on:
+      - crate-db
+      - orion
+    ports:
+      - "8668:8668"
+    environment:
+      CRATE_HOST: crate-db
+    networks:
+      - fiware-network
+
+  # ==========================================
+  # 7. DRACO - INTEGRACAO DE DADOS
+  # ==========================================
+  draco:
+    image: ging/fiware-draco:latest
+    container_name: draco-vacinas
+    restart: unless-stopped
+    ports:
+      - "8443:8443"
+      - "5050:5050"
+    networks:
+      - fiware-network
+
+  # ==========================================
+  # 8. GRAFANA - DASHBOARD
+  # ==========================================
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana-vacinas
+    restart: unless-stopped
+    depends_on:
+      - crate-db
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    volumes:
+      - grafana-data:/var/lib/grafana
+    networks:
+      - fiware-network
+
+
+# ==========================================
+# VOLUMES PERSISTENTES
+# ==========================================
+volumes:
+  mongo-data:
+  crate-data:
+  mosquitto-data:
+  mosquitto-log:
+  grafana-data:
+
+
+# ==========================================
+# REDE INTERNA
+# ==========================================
+networks:
+  fiware-network:
+    driver: bridge
