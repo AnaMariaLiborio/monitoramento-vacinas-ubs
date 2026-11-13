@@ -1,0 +1,83 @@
+
+[
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "temperatura": 4.5,
+    "umidade": 48,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_002",
+    "sensor": "SENSOR_002",
+    "temperatura": 5.2,
+    "umidade": 50,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_TIROL",
+    "refrigerador": "REF_003",
+    "sensor": "SENSOR_003",
+    "temperatura": 7.4,
+    "umidade": 51,
+    "status": "atencao"
+  },
+  {
+    "ubs": "UBS_TIROL",
+    "refrigerador": "REF_004",
+    "sensor": "SENSOR_004",
+    "temperatura": 4.1,
+    "umidade": 46,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_CIDADE_NOVA",
+    "refrigerador": "REF_005",
+    "sensor": "SENSOR_005",
+    "temperatura": 8.6,
+    "umidade": 52,
+    "status": "critico"
+  },
+  {
+    "ubs": "UBS_CIDADE_NOVA",
+    "refrigerador": "REF_006",
+    "sensor": "SENSOR_006",
+    "temperatura": 5.0,
+    "umidade": 49,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_PAJUCARA",
+    "refrigerador": "REF_007",
+    "sensor": "SENSOR_007",
+    "temperatura": 2.5,
+    "umidade": 47,
+    "status": "atencao"
+  },
+  {
+    "ubs": "UBS_PAJUCARA",
+    "refrigerador": "REF_008",
+    "sensor": "SENSOR_008",
+    "temperatura": 3.8,
+    "umidade": 45,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_LAGOA_NOVA",
+    "refrigerador": "REF_009",
+    "sensor": "SENSOR_009",
+    "temperatura": 6.2,
+    "umidade": 53,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_LAGOA_NOVA",
+    "refrigerador": "REF_010",
+    "sensor": "SENSOR_010",
+    "temperatura": 9.1,
+    "umidade": 55,
+    "status": "critico"
+  }
+]
