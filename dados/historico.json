@@ -1,0 +1,183 @@
+
+[
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T06:00:00-03:00",
+    "temperatura": 4.2,
+    "umidade": 48,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T07:00:00-03:00",
+    "temperatura": 4.4,
+    "umidade": 48,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T08:00:00-03:00",
+    "temperatura": 4.5,
+    "umidade": 49,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T09:00:00-03:00",
+    "temperatura": 4.7,
+    "umidade": 49,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T10:00:00-03:00",
+    "temperatura": 5.0,
+    "umidade": 50,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T11:00:00-03:00",
+    "temperatura": 5.3,
+    "umidade": 50,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T12:00:00-03:00",
+    "temperatura": 5.6,
+    "umidade": 51,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T13:00:00-03:00",
+    "temperatura": 5.4,
+    "umidade": 50,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T14:00:00-03:00",
+    "temperatura": 5.1,
+    "umidade": 49,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T15:00:00-03:00",
+    "temperatura": 4.9,
+    "umidade": 49,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T16:00:00-03:00",
+    "temperatura": 4.6,
+    "umidade": 48,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_ALECRIM",
+    "refrigerador": "REF_001",
+    "sensor": "SENSOR_001",
+    "data_hora": "2026-11-13T17:00:00-03:00",
+    "temperatura": 4.4,
+    "umidade": 48,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_CIDADE_NOVA",
+    "refrigerador": "REF_005",
+    "sensor": "SENSOR_005",
+    "data_hora": "2026-11-13T08:00:00-03:00",
+    "temperatura": 5.0,
+    "umidade": 49,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_CIDADE_NOVA",
+    "refrigerador": "REF_005",
+    "sensor": "SENSOR_005",
+    "data_hora": "2026-11-13T09:00:00-03:00",
+    "temperatura": 6.2,
+    "umidade": 50,
+    "status": "normal"
+  },
+  {
+    "ubs": "UBS_CIDADE_NOVA",
+    "refrigerador": "REF_005",
+    "sensor": "SENSOR_005",
+    "data_hora": "2026-11-13T10:00:00-03:00",
+    "temperatura": 7.3,
+    "umidade": 51,
+    "status": "atencao"
+  },
+  {
+    "ubs": "UBS_CIDADE_NOVA",
+    "refrigerador": "REF_005",
+    "sensor": "SENSOR_005",
+    "data_hora": "2026-11-13T11:00:00-03:00",
+    "temperatura": 8.2,
+    "umidade": 52,
+    "status": "critico"
+  },
+  {
+    "ubs": "UBS_CIDADE_NOVA",
+    "refrigerador": "REF_005",
+    "sensor": "SENSOR_005",
+    "data_hora": "2026-11-13T12:00:00-03:00",
+    "temperatura": 9.1,
+    "umidade": 55,
+    "status": "critico"
+  },
+  {
+    "ubs": "UBS_CIDADE_NOVA",
+    "refrigerador": "REF_005",
+    "sensor": "SENSOR_005",
+    "data_hora": "2026-11-13T13:00:00-03:00",
+    "temperatura": 8.5,
+    "umidade": 54,
+    "status": "critico"
+  },
+  {
+    "ubs": "UBS_CIDADE_NOVA",
+    "refrigerador": "REF_005",
+    "sensor": "SENSOR_005",
+    "data_hora": "2026-11-13T14:00:00-03:00",
+    "temperatura": 7.5,
+    "umidade": 52,
+    "status": "atencao"
+  },
+  {
+    "ubs": "UBS_CIDADE_NOVA",
+    "refrigerador": "REF_005",
+    "sensor": "SENSOR_005",
+    "data_hora": "2026-11-13T15:00:00-03:00",
+    "temperatura": 6.0,
+    "umidade": 50,
+    "status": "normal"
+  }
+]
