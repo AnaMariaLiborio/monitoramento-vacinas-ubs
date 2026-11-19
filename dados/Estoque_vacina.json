@@ -1,0 +1,10 @@
+{
+  "id": "ESTOQUE_ALECRIM_FA",
+  "type": "VaccineStock",
+  "ubsId": "UBS_ALECRIM",
+  "vacina": "Febre Amarela",
+  "codigoVacina": "FA",
+  "quantidadeDisponivel": 35,
+  "status": "disponivel",
+  "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+}
