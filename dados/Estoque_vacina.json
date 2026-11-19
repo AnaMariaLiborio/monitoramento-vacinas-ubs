@@ -8,3 +8,687 @@
   "status": "disponivel",
   "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
 }
+
+[
+  {
+    "id": "ESTOQUE_CANDELARIA_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_CANDELARIA",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 25,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_CANDELARIA_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_CANDELARIA",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_CANDELARIA_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_CANDELARIA",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 40,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_CANDELARIA_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_CANDELARIA",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 12,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_SATELITE_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_SATELITE",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_SATELITE_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_SATELITE",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 30,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_SATELITE_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_SATELITE",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 18,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_SATELITE_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_SATELITE",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_ROSANGELA_LIMA_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_ROSANGELA_LIMA",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 15,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_ROSANGELA_LIMA_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_ROSANGELA_LIMA",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_ROSANGELA_LIMA_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_ROSANGELA_LIMA",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 22,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_ROSANGELA_LIMA_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_ROSANGELA_LIMA",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 8,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_DESCOBERTA_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_DESCOBERTA",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_DESCOBERTA_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_DESCOBERTA",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 45,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_DESCOBERTA_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_DESCOBERTA",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_DESCOBERTA_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_DESCOBERTA",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 17,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PIRANGI_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PIRANGI",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 20,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PIRANGI_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PIRANGI",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PIRANGI_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PIRANGI",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 35,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PIRANGI_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PIRANGI",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_JIQUI_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_JIQUI",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_JIQUI_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_JIQUI",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 28,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_JIQUI_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_JIQUI",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 14,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_JIQUI_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_JIQUI",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PITIMBU_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PITIMBU",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 12,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PITIMBU_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PITIMBU",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 32,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PITIMBU_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PITIMBU",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PITIMBU_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PITIMBU",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 19,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_MIRASSOL_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_MIRASSOL",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 35,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_MIRASSOL_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_MIRASSOL",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_MIRASSOL_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_MIRASSOL",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 25,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_MIRASSOL_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_MIRASSOL",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 10,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_BELA_VISTA_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_BELA_VISTA",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_BELA_VISTA_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_BELA_VISTA",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 40,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_BELA_VISTA_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_BELA_VISTA",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 16,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_BELA_VISTA_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_BELA_VISTA",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_ALIANCA_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_ALIANCA",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 18,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_ALIANCA_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_ALIANCA",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_ALIANCA_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_ALIANCA",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 30,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_ALIANCA_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_ALIANCA",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 11,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PEDRA_DO_SINO_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PEDRA_DO_SINO",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PEDRA_DO_SINO_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PEDRA_DO_SINO",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 22,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PEDRA_DO_SINO_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PEDRA_DO_SINO",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PEDRA_DO_SINO_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PEDRA_DO_SINO",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 14,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_JARDIM_PROGRESSO_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_JARDIM_PROGRESSO",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 10,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_JARDIM_PROGRESSO_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_JARDIM_PROGRESSO",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_JARDIM_PROGRESSO_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_JARDIM_PROGRESSO",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 26,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_JARDIM_PROGRESSO_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_JARDIM_PROGRESSO",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PAJUCARA_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PAJUCARA",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PAJUCARA_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PAJUCARA",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 35,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PAJUCARA_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PAJUCARA",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 20,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_PAJUCARA_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_PAJUCARA",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_NATAL_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_NATAL",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 14,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_NATAL_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_NATAL",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_NATAL_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_NATAL",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 32,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_NOVA_NATAL_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_NOVA_NATAL",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 9,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_BAIRRO_NORDESTE_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_BAIRRO_NORDESTE",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_BAIRRO_NORDESTE_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_BAIRRO_NORDESTE",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 18,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_BAIRRO_NORDESTE_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_BAIRRO_NORDESTE",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_BAIRRO_NORDESTE_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_BAIRRO_NORDESTE",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 13,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_CAPIM_MACIO_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_CAPIM_MACIO",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 30,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_CAPIM_MACIO_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_CAPIM_MACIO",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 24,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_CAPIM_MACIO_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_CAPIM_MACIO",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_CAPIM_MACIO_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_CAPIM_MACIO",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 16,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_LAGOA_NOVA_FA",
+    "type": "VaccineStock",
+    "ubsId": "UBS_LAGOA_NOVA",
+    "vacina": "Febre Amarela",
+    "codigoVacina": "FA",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_LAGOA_NOVA_INF",
+    "type": "VaccineStock",
+    "ubsId": "UBS_LAGOA_NOVA",
+    "vacina": "Influenza",
+    "codigoVacina": "INF",
+    "quantidadeDisponivel": 38,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_LAGOA_NOVA_HB",
+    "type": "VaccineStock",
+    "ubsId": "UBS_LAGOA_NOVA",
+    "vacina": "Hepatite B",
+    "codigoVacina": "HB",
+    "quantidadeDisponivel": 21,
+    "status": "disponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  },
+  {
+    "id": "ESTOQUE_LAGOA_NOVA_TV",
+    "type": "VaccineStock",
+    "ubsId": "UBS_LAGOA_NOVA",
+    "vacina": "Triplice Viral",
+    "codigoVacina": "TV",
+    "quantidadeDisponivel": 0,
+    "status": "indisponivel",
+    "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
+  }
+]
+
