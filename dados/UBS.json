@@ -11,3 +11,199 @@
     }
   }
 }
+  {
+    "id": "UBS_CANDELARIA",
+    "type": "UBS",
+    "nome": "UBS Candelária",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2165, -5.8460]
+      }
+    }
+  },
+  {
+    "id": "UBS_SATELITE",
+    "type": "UBS",
+    "nome": "UBS Satélite",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2070, -5.8750]
+      }
+    }
+  },
+  {
+    "id": "UBS_ROSANGELA_LIMA",
+    "type": "UBS",
+    "nome": "UBS Rosângela Lima",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2540, -5.8720]
+      }
+    }
+  },
+  {
+    "id": "UBS_NOVA_DESCOBERTA",
+    "type": "UBS",
+    "nome": "UBS Nova Descoberta",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2130, -5.8190]
+      }
+    }
+  },
+  {
+    "id": "UBS_PIRANGI",
+    "type": "UBS",
+    "nome": "UBS Pirangi",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2020, -5.8840]
+      }
+    }
+  },
+  {
+    "id": "UBS_JIQUI",
+    "type": "UBS",
+    "nome": "UBS Jiqui",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2030, -5.8650]
+      }
+    }
+  },
+  {
+    "id": "UBS_PITIMBU",
+    "type": "UBS",
+    "nome": "UBS Pitimbu",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2110, -5.8720]
+      }
+    }
+  },
+  {
+    "id": "UBS_MIRASSOL",
+    "type": "UBS",
+    "nome": "UBS Mirassol",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2050, -5.8410]
+      }
+    }
+  },
+  {
+    "id": "UBS_BELA_VISTA",
+    "type": "UBS",
+    "nome": "UBS Bela Vista",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2450, -5.7520]
+      }
+    }
+  },
+  {
+    "id": "UBS_NOVA_ALIANCA",
+    "type": "UBS",
+    "nome": "UBS Nova Aliança",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2400, -5.7520]
+      }
+    }
+  },
+  {
+    "id": "UBS_PEDRA_DO_SINO",
+    "type": "UBS",
+    "nome": "UBS Pedra do Sino",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2420, -5.7480]
+      }
+    }
+  },
+  {
+    "id": "UBS_JARDIM_PROGRESSO",
+    "type": "UBS",
+    "nome": "UBS Jardim Progresso",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2450, -5.7400]
+      }
+    }
+  },
+  {
+    "id": "UBS_PAJUCARA",
+    "type": "UBS",
+    "nome": "UBS Pajuçara",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2300, -5.7280]
+      }
+    }
+  },
+  {
+    "id": "UBS_NOVA_NATAL",
+    "type": "UBS",
+    "nome": "UBS Nova Natal",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2500, -5.7150]
+      }
+    }
+  },
+  {
+    "id": "UBS_BAIRRO_NORDESTE",
+    "type": "UBS",
+    "nome": "UBS Bairro Nordeste",
+    "municipio": "Natal",
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [-35.2450, -5.7900]
+      }
+    }
+  }
+
