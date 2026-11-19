@@ -1,0 +1,13 @@
+{
+  "id": "UBS_ALECRIM",
+  "type": "UBS",
+  "nome": "UBS Alecrim",
+  "municipio": "Natal",
+  "location": {
+    "type": "geo:json",
+    "value": {
+      "type": "Point",
+      "coordinates": [-35.2110, -5.7945]
+    }
+  }
+}
