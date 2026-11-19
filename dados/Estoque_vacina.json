@@ -8,8 +8,6 @@
   "status": "disponivel",
   "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
 }
-
-[
   {
     "id": "ESTOQUE_CANDELARIA_FA",
     "type": "VaccineStock",
@@ -690,5 +688,4 @@
     "status": "indisponivel",
     "ultimaAtualizacao": "2026-11-19T10:30:00-03:00"
   }
-]
 
